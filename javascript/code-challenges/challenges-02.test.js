@@ -15,7 +15,6 @@ const raisedToTheThird = (arr) => {
     numbers.push(Math.pow(number, 3));
   });
 
-  return numbers;
 };
 
 /* ------------------------------------------------------------------------------------------------
