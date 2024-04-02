@@ -12,7 +12,7 @@ Write a function called reverseArray which takes an array as an argument. Withou
 3. **Space Complexity**: The space complexity is O(1) because the algorithm operates directly on the input array without requiring additional space.
 
 ## Solution
-**See reverseArray.js and reverseArray.test.js for code and test code**
+**See [reverseArray.js](reverseArray.js) for code and [reverseArray.test.js](reverseArray.test.js) for test code**
 
 **Follow these steps to run and test code**
 - npm install --save-dev jest
