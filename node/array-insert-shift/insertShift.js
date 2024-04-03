@@ -5,12 +5,12 @@ function insertShiftArray(array, element) {
   let newArray = [];
 
   for (let i= 0;  i< middle; i++)  {
-    newArray.push(array[i]);
+    newArray[newArray.length] = array[i];
   }
-  newArray.push(element);
+  newArray[newArray.length] = element;
 
   for (let i= middle; i< array.length; i++) {
-    newArray.push(array[i]);
+    newArray[newArray.length] = array[i];
   }
   return newArray;
 }
