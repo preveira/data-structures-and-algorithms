@@ -1,0 +1,15 @@
+{
+  "name": "array-insert-shift",
+  "version": "1.0.0",
+  "description": "**array-insert-shift**",
+  "main": "insertShift.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
