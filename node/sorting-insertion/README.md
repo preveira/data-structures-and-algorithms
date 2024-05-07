@@ -44,10 +44,10 @@ function InsertionSort(input) {
 }
 
 ## UML:
-![Whiteboard](image-1.png)
+![Whiteboard](image.png)
 
 
 ## Efficiency
 
-Space: O(1)
+Space: O(n^2)
 Time: O(n^2)
