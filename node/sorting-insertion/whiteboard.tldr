@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 267.85492678515936,
-			"y": 363.2044568855586,
-			"lastActivityTimestamp": 1715095791203,
+			"x": 619.0951591363797,
+			"y": 803.6288550715935,
+			"lastActivityTimestamp": 1715099867545,
 			"meta": {}
 		},
 		{
@@ -75,7 +75,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 864,
+				"w": 1070,
 				"h": 750
 			},
 			"insets": [
@@ -105,12 +105,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:cBOT2LNnoZbm8t5By1Xsf",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:r8pPgRxV85JYyb-BX5iRf"
+				"shape:cBOT2LNnoZbm8t5By1Xsf"
 			],
-			"hoveredShapeId": "shape:r8pPgRxV85JYyb-BX5iRf",
+			"hoveredShapeId": "shape:cBOT2LNnoZbm8t5By1Xsf",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -120,9 +120,9 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 515.3381575991255,
-			"y": 82.7687849220697,
-			"z": 0.5930849100451026,
+			"x": 790.7398957602442,
+			"y": 198.8600353150021,
+			"z": 0.5511283020672042,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -266,8 +266,8 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 714.09375,
-				"text": "while loop check if value is greater than\nvalue at position[ i ].\n\nsecond while loop iterates through the new array\nto identify if value stored in temp is greater or less than\nthe value at the current position. If less than it places\nvalue to the left, if greater it places to the right \nand shifts all other values accordingly.",
+				"w": 759.8828125,
+				"text": "while loop check if value is greater than\nvalue at position[ i ].\n\nsecond while loop iterates through the new array\nto identify if value stored in temp is greater or less than\nthe value at the current position. If less than it places\nvalue to the left, if greater it places to the right \nand shifts all other values accordingly by using temp as the \nplaceholder.",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
