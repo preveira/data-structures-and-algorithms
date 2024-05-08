@@ -49,5 +49,5 @@ function InsertionSort(input) {
 
 ## Efficiency
 
-Space: O(1)
+Space: O(n^2)
 Time: O(n^2)
