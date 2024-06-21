@@ -1,0 +1,1333 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 4,
+			"com.tldraw.asset.video": 4,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 7,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 3,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -328.98271643892656,
+			"y": 950.5238797295572,
+			"lastActivityTimestamp": 1718987682082,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:size": "s",
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "light-blue"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "move",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1150,
+				"h": 750
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:Ep-mSl_D1FidQg1r3t2pd"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 1157.1229008112887,
+			"y": -72.71555700438506,
+			"z": 0.49327397427235997,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -1102.0119701108335,
+			"y": 83.30266778275245,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5DFIEg9K_-y_xuGXB9_IK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 522.7219681354694,
+				"text": "Algorithm:\n- Convert the String to Lowercase: Take the input string str and convert all the characters to lowercase. This ensures that the comparison is case-insensitive.\n\n- Extract Words: Extract all the words from the lowercase string. Words are sequences of alphanumeric characters separated by non-word characters. This is done using a regular expression.\n\n- Initialize a Dictionary: Create an empty dictionary (called wordMap) to keep track of the words and their occurrences.\n\n- Loop Through the Words:\n\n- For each word in the list of words:\n> Check if the Word is Already in the Dictionary:\n> If the word is already in the dictionary (wordMap), it means this word is repeated. Return this word immediately.\n> If the word is not in the dictionary, add it to the dictionary with a count of 1.\n\n- Return Null if No Repeated Word is Found: If the loop completes without finding a repeated word, \n\n--> return null.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": -236.56930356897544,
+			"y": 66.47813370011767,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WVl7rwcyEkpksboiBES7Q",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 126.5546875,
+				"text": "Visualization:",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2",
+			"typeName": "shape"
+		},
+		{
+			"x": -277.28730713294067,
+			"y": 150.7806769207134,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7IFlzK2EayljpZLLqQazt",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 251.0625,
+				"text": "string = \"This is my string\"\n",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3",
+			"typeName": "shape"
+		},
+		{
+			"x": -163.76013375508933,
+			"y": 172.05183371000498,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rhENjBSkxq4caDzpjac36",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 11.149990242467538,
+					"y": 97.30900575244402
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a4",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:ufW0IW5ucIgKU1nLTdjez",
+			"type": "arrow",
+			"fromId": "shape:rhENjBSkxq4caDzpjac36",
+			"toId": "shape:7IFlzK2EayljpZLLqQazt",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4521868991898485,
+					"y": 0.43773441624265635
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -266.13731689047313,
+			"y": 293.68809090056004,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4wJoQdDjjRnkbMDlMqqYG",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 338.7890625,
+				"text": ".toLowercase --> \"this is my string!\"",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5",
+			"typeName": "shape"
+		},
+		{
+			"x": -324.92817453257476,
+			"y": 384.9152837934763,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KJ6bY3FB9BpCXQlQeSjG1",
+			"type": "geo",
+			"props": {
+				"w": 465.25868375387313,
+				"h": 110.48626694808752,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a6",
+			"typeName": "shape"
+		},
+		{
+			"x": -143.4874242233301,
+			"y": 357.54712592560145,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:d8LZge3EIO6L50hF4NZLf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 89.21875,
+				"text": "wordMap",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7",
+			"typeName": "shape"
+		},
+		{
+			"x": -3.605728454191876,
+			"y": 319.02897781525905,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:q-A4Wij3TzFojE_xCheW8",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 3.040906429763936,
+					"y": 56.76358668892567
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a8",
+			"typeName": "shape"
+		},
+		{
+			"x": -260.0555040309454,
+			"y": 433.56978666969826,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:x-pn9cBLkPKiGdNp4d0gv",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 226.3984375,
+				"text": "\"this\", \"is\", \"my\", \"string\"",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a9",
+			"typeName": "shape"
+		},
+		{
+			"x": 160.6032187530575,
+			"y": 431.5425157165223,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:80EcfXPq7rePWFcVUCkaD",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "s",
+				"w": 244.34375,
+				"text": "remove special characters",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aA",
+			"typeName": "shape"
+		},
+		{
+			"x": -246.87824283530188,
+			"y": 464.99248644392503,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:gSTiDMGJRwLn19mdeJGO3",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -1.01,
+								"y": 5.07,
+								"z": 0.5
+							},
+							{
+								"x": -1.01,
+								"y": 11.15,
+								"z": 0.5
+							},
+							{
+								"x": -1.01,
+								"y": 16.22,
+								"z": 0.5
+							},
+							{
+								"x": -1.01,
+								"y": 20.27,
+								"z": 0.5
+							},
+							{
+								"x": 1.01,
+								"y": 23.31,
+								"z": 0.5
+							},
+							{
+								"x": 2.03,
+								"y": 26.35,
+								"z": 0.5
+							},
+							{
+								"x": 4.05,
+								"y": 29.4,
+								"z": 0.5
+							},
+							{
+								"x": 6.08,
+								"y": 30.41,
+								"z": 0.5
+							},
+							{
+								"x": 8.11,
+								"y": 32.44,
+								"z": 0.5
+							},
+							{
+								"x": 9.12,
+								"y": 33.45,
+								"z": 0.5
+							},
+							{
+								"x": 11.15,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 13.18,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 14.19,
+								"y": 35.48,
+								"z": 0.5
+							},
+							{
+								"x": 18.25,
+								"y": 37.5,
+								"z": 0.5
+							},
+							{
+								"x": 22.3,
+								"y": 39.53,
+								"z": 0.5
+							},
+							{
+								"x": 23.31,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 24.33,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 25.34,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 27.37,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 28.38,
+								"y": 41.56,
+								"z": 0.5
+							},
+							{
+								"x": 30.41,
+								"y": 41.56,
+								"z": 0.5
+							},
+							{
+								"x": 31.42,
+								"y": 41.56,
+								"z": 0.5
+							},
+							{
+								"x": 32.44,
+								"y": 41.56,
+								"z": 0.5
+							},
+							{
+								"x": 34.46,
+								"y": 41.56,
+								"z": 0.5
+							},
+							{
+								"x": 41.56,
+								"y": 35.48,
+								"z": 0.5
+							},
+							{
+								"x": 44.6,
+								"y": 33.45,
+								"z": 0.5
+							},
+							{
+								"x": 45.61,
+								"y": 33.45,
+								"z": 0.5
+							},
+							{
+								"x": 46.63,
+								"y": 32.44,
+								"z": 0.5
+							},
+							{
+								"x": 49.67,
+								"y": 29.4,
+								"z": 0.5
+							},
+							{
+								"x": 52.71,
+								"y": 27.37,
+								"z": 0.5
+							},
+							{
+								"x": 54.74,
+								"y": 26.35,
+								"z": 0.5
+							},
+							{
+								"x": 55.75,
+								"y": 25.34,
+								"z": 0.5
+							},
+							{
+								"x": 56.76,
+								"y": 24.33,
+								"z": 0.5
+							},
+							{
+								"x": 60.82,
+								"y": 17.23,
+								"z": 0.5
+							},
+							{
+								"x": 61.83,
+								"y": 16.22,
+								"z": 0.5
+							},
+							{
+								"x": 61.83,
+								"y": 15.2,
+								"z": 0.5
+							},
+							{
+								"x": 62.85,
+								"y": 13.18,
+								"z": 0.5
+							},
+							{
+								"x": 62.85,
+								"y": 12.16,
+								"z": 0.5
+							},
+							{
+								"x": 62.85,
+								"y": 11.15,
+								"z": 0.5
+							},
+							{
+								"x": 62.85,
+								"y": 9.12,
+								"z": 0.5
+							},
+							{
+								"x": 62.85,
+								"y": 6.08,
+								"z": 0.5
+							},
+							{
+								"x": 64.87,
+								"y": 4.05,
+								"z": 0.5
+							},
+							{
+								"x": 65.89,
+								"y": 4.05,
+								"z": 0.5
+							},
+							{
+								"x": 69.94,
+								"y": 8.11,
+								"z": 0.5
+							},
+							{
+								"x": 71.97,
+								"y": 11.15,
+								"z": 0.5
+							},
+							{
+								"x": 74,
+								"y": 16.22,
+								"z": 0.5
+							},
+							{
+								"x": 75.01,
+								"y": 18.25,
+								"z": 0.5
+							},
+							{
+								"x": 77.04,
+								"y": 20.27,
+								"z": 0.5
+							},
+							{
+								"x": 79.06,
+								"y": 23.31,
+								"z": 0.5
+							},
+							{
+								"x": 80.08,
+								"y": 24.33,
+								"z": 0.5
+							},
+							{
+								"x": 81.09,
+								"y": 26.35,
+								"z": 0.5
+							},
+							{
+								"x": 82.1,
+								"y": 28.38,
+								"z": 0.5
+							},
+							{
+								"x": 83.12,
+								"y": 29.4,
+								"z": 0.5
+							},
+							{
+								"x": 85.15,
+								"y": 29.4,
+								"z": 0.5
+							},
+							{
+								"x": 86.16,
+								"y": 30.41,
+								"z": 0.5
+							},
+							{
+								"x": 88.19,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 89.2,
+								"y": 32.44,
+								"z": 0.5
+							},
+							{
+								"x": 90.21,
+								"y": 33.45,
+								"z": 0.5
+							},
+							{
+								"x": 90.21,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 91.23,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 93.25,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 94.27,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 99.34,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 101.36,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 104.4,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 105.42,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 106.43,
+								"y": 27.37,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 24.33,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 22.3,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 21.29,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 19.26,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 18.25,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 17.23,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 13.18,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 12.16,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 11.15,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 10.14,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 7.1,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 6.08,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 5.07,
+								"z": 0.5
+							},
+							{
+								"x": 108.46,
+								"y": 4.05,
+								"z": 0.5
+							},
+							{
+								"x": 109.47,
+								"y": 4.05,
+								"z": 0.5
+							},
+							{
+								"x": 112.51,
+								"y": 9.12,
+								"z": 0.5
+							},
+							{
+								"x": 117.58,
+								"y": 15.2,
+								"z": 0.5
+							},
+							{
+								"x": 121.64,
+								"y": 22.3,
+								"z": 0.5
+							},
+							{
+								"x": 125.69,
+								"y": 30.41,
+								"z": 0.5
+							},
+							{
+								"x": 133.8,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 137.85,
+								"y": 45.61,
+								"z": 0.5
+							},
+							{
+								"x": 139.88,
+								"y": 47.64,
+								"z": 0.5
+							},
+							{
+								"x": 143.94,
+								"y": 51.7,
+								"z": 0.5
+							},
+							{
+								"x": 145.96,
+								"y": 55.75,
+								"z": 0.5
+							},
+							{
+								"x": 147.99,
+								"y": 57.78,
+								"z": 0.5
+							},
+							{
+								"x": 151.03,
+								"y": 58.79,
+								"z": 0.5
+							},
+							{
+								"x": 152.05,
+								"y": 59.8,
+								"z": 0.5
+							},
+							{
+								"x": 153.06,
+								"y": 60.82,
+								"z": 0.5
+							},
+							{
+								"x": 154.07,
+								"y": 62.85,
+								"z": 0.5
+							},
+							{
+								"x": 155.09,
+								"y": 62.85,
+								"z": 0.5
+							},
+							{
+								"x": 158.13,
+								"y": 60.82,
+								"z": 0.5
+							},
+							{
+								"x": 161.17,
+								"y": 57.78,
+								"z": 0.5
+							},
+							{
+								"x": 164.21,
+								"y": 54.74,
+								"z": 0.5
+							},
+							{
+								"x": 166.24,
+								"y": 52.71,
+								"z": 0.5
+							},
+							{
+								"x": 168.26,
+								"y": 50.68,
+								"z": 0.5
+							},
+							{
+								"x": 171.3,
+								"y": 47.64,
+								"z": 0.5
+							},
+							{
+								"x": 173.33,
+								"y": 45.61,
+								"z": 0.5
+							},
+							{
+								"x": 173.33,
+								"y": 43.59,
+								"z": 0.5
+							},
+							{
+								"x": 174.35,
+								"y": 42.57,
+								"z": 0.5
+							},
+							{
+								"x": 174.35,
+								"y": 40.55,
+								"z": 0.5
+							},
+							{
+								"x": 175.36,
+								"y": 38.52,
+								"z": 0.5
+							},
+							{
+								"x": 175.36,
+								"y": 36.49,
+								"z": 0.5
+							},
+							{
+								"x": 175.36,
+								"y": 34.46,
+								"z": 0.5
+							},
+							{
+								"x": 176.37,
+								"y": 31.42,
+								"z": 0.5
+							},
+							{
+								"x": 176.37,
+								"y": 29.4,
+								"z": 0.5
+							},
+							{
+								"x": 177.39,
+								"y": 27.37,
+								"z": 0.5
+							},
+							{
+								"x": 177.39,
+								"y": 23.31,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 20.27,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 17.23,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 15.2,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 13.18,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 10.14,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 7.1,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 6.08,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 5.07,
+								"z": 0.5
+							},
+							{
+								"x": 179.41,
+								"y": 4.05,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB",
+			"typeName": "shape"
+		},
+		{
+			"x": -85.71020205781656,
+			"y": 468.03339287368885,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LGHtit03EF2C_CnK0j2AP",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 2.03,
+								"y": -4.05,
+								"z": 0.5
+							},
+							{
+								"x": 5.07,
+								"y": -6.08,
+								"z": 0.5
+							},
+							{
+								"x": 6.08,
+								"y": -6.08,
+								"z": 0.5
+							},
+							{
+								"x": 6.08,
+								"y": -7.1,
+								"z": 0.5
+							},
+							{
+								"x": 7.1,
+								"y": -7.1,
+								"z": 0.5
+							},
+							{
+								"x": 7.1,
+								"y": -8.11,
+								"z": 0.5
+							},
+							{
+								"x": 8.11,
+								"y": -8.11,
+								"z": 0.5
+							},
+							{
+								"x": 8.11,
+								"y": -9.12,
+								"z": 0.5
+							},
+							{
+								"x": 9.12,
+								"y": -9.12,
+								"z": 0.5
+							},
+							{
+								"x": 9.12,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 10.14,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 11.15,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 13.18,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 14.19,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 15.2,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 16.22,
+								"y": -10.14,
+								"z": 0.5
+							},
+							{
+								"x": 17.23,
+								"y": -9.12,
+								"z": 0.5
+							},
+							{
+								"x": 18.25,
+								"y": -8.11,
+								"z": 0.5
+							},
+							{
+								"x": 19.26,
+								"y": -8.11,
+								"z": 0.5
+							},
+							{
+								"x": 21.29,
+								"y": -7.1,
+								"z": 0.5
+							},
+							{
+								"x": 22.3,
+								"y": -7.1,
+								"z": 0.5
+							},
+							{
+								"x": 23.31,
+								"y": -6.08,
+								"z": 0.5
+							},
+							{
+								"x": 24.33,
+								"y": -6.08,
+								"z": 0.5
+							},
+							{
+								"x": 24.33,
+								"y": -5.07,
+								"z": 0.5
+							},
+							{
+								"x": 25.34,
+								"y": -5.07,
+								"z": 0.5
+							},
+							{
+								"x": 26.35,
+								"y": -3.04,
+								"z": 0.5
+							},
+							{
+								"x": 27.37,
+								"y": -3.04,
+								"z": 0.5
+							},
+							{
+								"x": 27.37,
+								"y": -2.03,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aC",
+			"typeName": "shape"
+		},
+		{
+			"x": -271.2054942734129,
+			"y": 535.9469698050821,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iWu1Jk_qMwDX5rmxs_VIH",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "s",
+				"w": 431.578125,
+				"text": "Loop through each word to check if the word \nis already in the dictionary",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aD",
+			"typeName": "shape"
+		},
+		{
+			"x": -271.2054942734129,
+			"y": 613.9969015023548,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CAKSP6_faD2ZXjfgwX_kD",
+			"type": "geo",
+			"props": {
+				"w": 416.60418087765123,
+				"h": 85.14538003338862,
+				"geo": "rectangle",
+				"color": "light-green",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aE",
+			"typeName": "shape"
+		},
+		{
+			"x": -256.00096212459357,
+			"y": 632.242340080938,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:UUfCbzWO-_ua1nzmUYK-R",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "s",
+				"w": 381.703125,
+				"text": "++count for each word when added\nto dictionary. return null if no new word",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aF",
+			"typeName": "shape"
+		},
+		{
+			"x": -500.28711198229155,
+			"y": 756.9195037012571,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ep-mSl_D1FidQg1r3t2pd",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "s",
+				"w": 499.765625,
+				"text": "Code:\nfunction repeatedWord(str) {\n  const words = str.toLowerCase().match(/\\b\\w+\\b/g);\n  const wordMap = {};\n\n  for (let word of words) {\n    if (wordMap[word]) {\n      return word;\n    } else {\n      wordMap[word] = 1;\n    }\n  }\n  return null;\n}\n\nmodule.exports = repeatedWord;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aG",
+			"typeName": "shape"
+		}
+	]
+}
